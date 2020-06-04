@@ -7397,7 +7397,10 @@ form .row:first-child .floating-label-form-group {
   white-space: pre; }
 
 .pre-wrap {
-  white-space: pre-wrap; }
+  white-space: pre-wrap;
+  padding-right: 80px;
+  padding-left: 80px;
+}
 
 .icon-contact {
   display: flex;

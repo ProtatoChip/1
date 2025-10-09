@@ -7465,3 +7465,12 @@ form .row:first-child .floating-label-form-group {
 .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(194, 188, 137, 0.5);
 }
+#contact .form-row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#contact .form-row > .col {
+    padding-right: 0;
+    padding-left: 0;
+}

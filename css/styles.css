@@ -7435,3 +7435,7 @@ form .row:first-child .floating-label-form-group {
     color: var(--gray);
     opacity: 1;
 }
+.fixed-top {
+    left: 0;
+    right: 0;
+}

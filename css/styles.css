@@ -7418,3 +7418,50 @@ form .row:first-child .floating-label-form-group {
 
 .btn-social {
   margin-bottom: 0.5rem; }
+.footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: var(--secondary); /* Uses your secondary color */
+    color: var(--white); /* Uses your white color */
+}
+
+/* This is a custom style for the form's input fields */
+/* It uses your primary color for the active state to match the overall theme */
+.form-control:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 0.2rem rgba(194, 188, 137, 0.25);
+}
+
+.floating-label-form-group {
+    position: relative;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+    color: #fff;
+}
+
+.floating-label-form-group-with-focus label {
+    color: var(--primary);
+}
+
+.floating-label-form-group label {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Styles the submit button to match your primary button style */
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: var(--secondary);
+}
+
+.btn-primary:hover {
+    background-color: #a89f57;
+    border-color: #a89f57;
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(194, 188, 137, 0.5);
+}

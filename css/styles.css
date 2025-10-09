@@ -7477,3 +7477,15 @@ form .row:first-child .floating-label-form-group {
 .form-control {
   border-right: 2px solid #ced4da !important;
 }
+#contact .form-group input,
+#contact .form-group textarea {
+    background-color: #fff; /* White background for contrast */
+    border: 2px solid #ced4da; /* Explicitly sets the border */
+    border-radius: 8px; /* Adds a slight border-radius */
+    color: #000; /* Sets text color to black for readability */
+}
+
+/* Remove the floating label effect if it's causing issues with placeholders */
+.floating-label-form-group label {
+    display: none;
+}

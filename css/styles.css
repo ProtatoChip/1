@@ -7474,3 +7474,6 @@ form .row:first-child .floating-label-form-group {
     padding-right: 0;
     padding-left: 0;
 }
+.form-control {
+  border-right: 2px solid #ced4da !important;
+}
